@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DalFacade.Do
 {
-    internal record Product
+    public record Product
     {
         public int ProductId { get; set; }
         public string ProductName { get; set; }
